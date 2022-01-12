@@ -1,10 +1,10 @@
 import 'package:equatable/equatable.dart';
 
 class Post extends Equatable {
-  int userId;
-  int postId;
-  String postTitle;
-  String postBody;
+  final int userId;
+  final int postId;
+  final String postTitle;
+  final String postBody;
 
   const Post({
     required this.userId,
